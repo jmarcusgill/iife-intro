@@ -4,7 +4,6 @@ var SolarSystem = (function(){
   var dwarfPlanets = ["pluto"]
   var numPlanetsPeopleLandedOn = 0;
   var stars = ["Sun", "Alpha Centauri", "Wolf 359"]
-  var age = 0
 
   return {
     getPlanets : function() {
@@ -22,18 +21,6 @@ var SolarSystem = (function(){
     setDwardPlanets : function(lumpOfRock) {
       dwarfPlanets.push(lumpOfRock);
     },
-    getStars : function() {
-      return stars;
-    },
-    setStars : function(newStar) {
-      stars.push(newStar);
-    },
-    getSolarSystemAge : function() {
-      return age;
-    },
-    setSolarSystemAge : function() {
-      age++
-    }
   }
 
 
